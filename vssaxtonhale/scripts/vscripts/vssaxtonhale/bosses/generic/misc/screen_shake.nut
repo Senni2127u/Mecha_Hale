@@ -82,7 +82,7 @@ class ScreenShakeTrait extends BossTrait
                             if (now - scope.last_laser_pain >= EYE_LASER_PAIN_COOLDOWN)
                             {
                                 local cls = victim.GetPlayerClass()
-                                if (cls in ::EyeLaserPainSounds)        // <- this line
+                                if (cls in ::EyeLaserPainSounds)
                                     {
                                         scope.last_laser_pain = now
                                         EmitSoundEx({
