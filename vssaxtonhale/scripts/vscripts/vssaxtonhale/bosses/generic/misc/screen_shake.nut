@@ -67,32 +67,38 @@ class ScreenShakeTrait extends BossTrait
         {
             if (victim.IsPlayer())
             {
-                victim.ValidateScriptScope()
-                local scope = victim.GetScriptScope()
-                local now = Time()
-
-                if (!("last_laser_pain" in scope))
-                    scope.last_laser_pain <- 0.0
-
-                if (now - scope.last_laser_pain >= EYE_LASER_PAIN_COOLDOWN)
-                {
-                    local cls = victim.GetPlayerClass()
-                    if (cls in ::EyeLaserPainSounds)        // <- this line
+                if (victim.InCond(TF_COND_INVULNERABLE))
                     {
-                        scope.last_laser_pain = now
-                        EmitSoundEx({
-                            sound_name = ::EyeLaserPainSound(cls),
-                            entity = victim,
-                            channel = 2,
-                            sound_level = 90
-                        })
+                        return;
                     }
-                }
+                        {
+                            victim.ValidateScriptScope()
+                            local scope = victim.GetScriptScope()
+                            local now = Time()
+
+                            if (!("last_laser_pain" in scope))
+                            scope.last_laser_pain <- 0.0
+
+                            if (now - scope.last_laser_pain >= EYE_LASER_PAIN_COOLDOWN)
+                            {
+                                local cls = victim.GetPlayerClass()
+                                if (cls in ::EyeLaserPainSounds)        // <- this line
+                                    {
+                                        scope.last_laser_pain = now
+                                        EmitSoundEx({
+                                        sound_name = ::EyeLaserPainSound(cls),
+                                        entity = victim,
+                                        channel = 2,
+                                        sound_level = 90
+                                        })
+                                    }
+                            }
+                        }
             }
-        }
         else
-        {
-            ScreenShake(victim.GetCenter(), 140, 1, 1, 10, 0, true);
+            {
+                ScreenShake(victim.GetCenter(), 140, 1, 1, 10, 0, true);
+            }
         }
     }
 };
