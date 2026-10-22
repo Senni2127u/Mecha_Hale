@@ -1,0 +1,19 @@
+UnlitGeneric
+{
+	"$basetexture" 	"models/vsh/effects/fx_charge_base_2"
+
+	"$translucent" 	"1"
+	"$additive" 	"1"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" 	"$baseTextureTransform"
+			"texturescrollrate" 	"6"			
+			"texturescrollangle" "-85"
+		}
+	}
+}
+
+

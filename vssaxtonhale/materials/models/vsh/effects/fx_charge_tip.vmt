@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+	"$baseTexture" 	"models/vsh/effects/fx_charge_tip"
+	"$additive" 	"1"
+	"$translucent" 	"1"
+}
+
