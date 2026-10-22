@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 		"models/vsh/player/mecha_hale/gibs/mecha_hale_head_gib"
+	"$basemapalphaphongmask" 	"1"
+	"$phong" 		"1"
+	"$phongexponent" 		"15"
+	"$phongboost" 		"2"	
+	"$phongfresnelranges"	"[.6 .9 1]"
+	"$halflambert" 		"0"
+
+	"$lightwarptexture" 		"models/lightwarps/robot_lightwarp"
+	
+	"$rimlight" 		"1"						
+	"$rimlightexponent" 		"1"				
+	"$rimlightboost" 		"2"
+	"$rimmask" 		"1"
+}
