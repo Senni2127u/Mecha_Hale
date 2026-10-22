@@ -6,10 +6,10 @@ The repository has been updated to the latest version (Summer 2025) of the VScri
 
 Credits:
 
-Lizard of Oz - Main VSH Developer.
-Maxxy - Character model, textures, animations
-MegapiemanPHD - Mecha Hale and Gray Mann voice acting.
-McGuinnsBook - Mercenaries voice acting for custom lines.
-Yaki - custom weapon script assistance.
-Bradasparky - General Coding Assistance.
-Senni - Updated Scripts and fixes for new version of gamemode.
+* Lizard of Oz - Main VSH Developer.
+* Maxxy - Character model, textures, animations
+* MegapiemanPHD - Mecha Hale and Gray Mann voice acting.
+* McGuinnsBook - Mercenaries voice acting for custom lines.
+* Yaki - custom weapon script assistance.
+* Bradasparky - General Coding Assistance.
+* Senni - Updated Scripts and fixes for new version of gamemode.
