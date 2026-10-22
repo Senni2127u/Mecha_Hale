@@ -4,7 +4,7 @@ As Mecha Hale, get rid of those pesky Mercenaries.
 
 Other Notes:
 Mercenaries can climb up walls by hitting them with their melee weapons.
-as Mecha Hale, use E to fire off lasers.
+as Mecha Hale, use Call Medic to fire off lasers.
 
 Credits:
 
