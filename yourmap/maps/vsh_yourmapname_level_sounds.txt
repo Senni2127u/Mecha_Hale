@@ -1,0 +1,2872 @@
+"saxton_hale.dance"
+{
+    "channel"       "145"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/dance_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/dance_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/dance_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/dance_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/dance_05_facility.mp3"
+    }
+}
+
+"saxton_hale.laser_ready"
+{
+    "channel"       "141"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/laser_ready_01_facility.mp3"
+    }
+}
+
+"saxton_hale.laser_fire"
+{
+    "channel"       "144"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "charge.mp3"
+    }
+}
+
+"saxton_hale.laser_firing"
+{
+    "channel"       "141"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/laser_fire_01_facility.mp3"
+	"wave"      "mvm/saxton_hale_sm_2025_1/laser_fire_02_facility.mp3"
+	"wave"      "mvm/saxton_hale_sm_2025_1/laser_fire_03_facility.mp3"
+	"wave"      "mvm/saxton_hale_sm_2025_1/laser_fire_04_facility.mp3"
+    }
+}
+
+"saxton_hale.laser_use"
+{
+    "channel"       "141"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/use_laser_01_facility.mp3"
+    }
+}
+
+"saxton_hale.laser_kill"
+{
+    "channel"       "141"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_laser_01_facility.mp3"
+	"wave"      "mvm/saxton_hale_sm_2025_1/kill_laser_02_facility.mp3"
+	"wave"      "mvm/saxton_hale_sm_2025_1/kill_laser_03_facility.mp3"
+	"wave"      "mvm/saxton_hale_sm_2025_1/kill_laser_04_facility.mp3"
+    }
+}
+
+"saxton_hale.bailout"
+{
+    "channel"       "155"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/bailout_01_facility.mp3"
+    }
+}
+
+"saxton_hale.charge_a"
+{
+    "channel"       "141"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/charge_a_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/charge_a_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/charge_a_03_facility.mp3"
+    }
+}
+
+
+"saxton_hale.charge_b"
+{
+    "channel"       "141"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/charge_b_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/charge_b_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/charge_b_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/charge_b_04_facility.mp3"
+    }
+}
+
+"saxton_hale.charge_c"
+{
+    "channel"       "141"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/charge_c_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/charge_c_02_facility.mp3"
+    }
+}
+
+"saxton_hale.dash_a"
+{
+    "channel"       "141"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/dash_a_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/dash_a_02_facility.mp3"
+    }
+}
+
+"saxton_hale.dash_b"
+{
+    "channel"       "141"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/dash_b_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/dash_b_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/dash_b_03_facility.mp3"
+    }
+}
+
+"saxton_hale.dash_c"
+{
+    "channel"       "141"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/dash_c_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/dash_c_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/dash_c_03_facility.mp3"
+    }
+}
+
+"saxton_hale.boss_win"
+{
+    "channel"       "155"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_05_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_06_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_07_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_08_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_09_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_10_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_11_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_12_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_13_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_14_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_15_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_16_facility.mp3"
+    }
+}
+
+"saxton_hale.boss_win_4boss"
+{
+    "channel"       "155"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_06_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_08_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_09_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_10_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_11_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/hale_win_12_facility.mp3"
+    }
+}
+
+"saxton_hale.jarated"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/jarated_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/jarated_05_facility.mp3"
+    }
+}
+
+"saxton_hale.jump"
+{
+    "channel"       "142"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/jump_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/jump_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/jump_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/jump_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/jump_05_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/jump_06_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/jump_07_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/jump_08_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/jump_09_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/jump_10_facility.mp3"
+    }
+}
+
+"saxton_hale.kill_demoman"
+{
+    "channel"       "143"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_soldier_01_facility.mp3"
+    }
+}
+
+
+"saxton_hale.kill_engineer"
+{
+    "channel"       "143"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_engineer_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_engineer_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_engineer_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_engineer_05_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_engineer_06_facility.mp3"
+    }
+}
+
+"saxton_hale.kill_generic"
+{
+    "channel"       "143"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_05_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_06_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_07_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_08_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_09_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_10_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_11_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_12_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_13_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_14_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_15_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_16_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_17_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_18_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_19_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_20_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_21_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_22_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_23_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_24_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_generic_25_facility.mp3"
+    }
+}
+
+"saxton_hale.kill_heavy"
+{
+    "channel"       "143"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_scout_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_heavy_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_heavy_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_heavy_04_facility.mp3"
+    }
+}
+
+"saxton_hale.kill_medic"
+{
+    "channel"       "143"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_medic_01_facility.mp3"
+    }
+}
+
+"saxton_hale.kill_medic_last"
+{
+    "channel"       "143"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_medic_last_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_medic_last_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_medic_last_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_medic_last_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_medic_last_05_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_medic_last_06_facility.mp3"
+    }
+}
+
+"saxton_hale.kill_medic_only"
+{
+    "channel"       "143"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_medic_only_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_medic_only_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_medic_only_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_medic_only_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_medic_only_05_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_medic_only_06_facility.mp3"
+    }
+}
+
+"saxton_hale.kill_pyro"
+{
+    "channel"       "143"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_pyro_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_pyro_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_pyro_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_pyro_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_pyro_05_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_pyro_06_facility.mp3"
+    }
+}
+
+
+"saxton_hale.kill_scout"
+{
+    "channel"       "143"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_scout_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_scout_02_facility.mp3"
+    }
+}
+
+
+"saxton_hale.kill_sniper"
+{
+    "channel"       "143"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_sniper_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_sniper_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_sniper_03_facility.mp3"
+    }
+}
+
+
+"saxton_hale.kill_soldier"
+{
+    "channel"       "143"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_soldier_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_soldier_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_soldier_03_facility.mp3"
+    }
+}
+
+"saxton_hale.kill_spy"
+{
+    "channel"       "143"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_spy_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_spy_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_spy_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_spy_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_spy_05_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_spy_06_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_pyro_06_facility.mp3"
+    }
+}
+
+"saxton_hale.kill_building"
+{
+    "channel"       "143"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_building_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_building_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_building_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_building_05_facility.mp3"
+    }
+}
+
+"saxton_hale.kill_dispenser"
+{
+    "channel"       "143"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/kill_dispenser_01_facility.mp3"
+    }
+}
+
+"saxton_hale.last_mann_hiding"
+{
+    "channel"       "143"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/last_mann_hiding_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/last_mann_hiding_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/last_mann_hiding_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/last_mann_hiding_05_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/last_mann_hiding_06_facility.mp3"
+    }
+}
+
+
+"saxton_hale.laugh"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/laugh_01_facility.mp3"
+    }
+}
+
+"saxton_hale.mercs_win_capture"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/mercs_win_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/mercs_win_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/mercs_win_03_facility.mp3"
+    }
+}
+
+"saxton_hale.mercs_win_kill"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/mercs_win_kill_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/mercs_win_kill_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/mercs_win_kill_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/mercs_win_kill_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/mercs_win_kill_05_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/mercs_win_kill_06_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/mercs_win_kill_07_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/mercs_win_kill_08_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/mercs_win_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/mercs_win_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/mercs_win_03_facility.mp3"
+    }
+}
+
+"saxton_hale.stabbed"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/stabbed_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/stabbed_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/stabbed_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/stabbed_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/stabbed_05_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/stabbed_06_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/stabbed_07_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/stabbed_08_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/stabbed_09_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/stabbed_10_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/stabbed_11_facility.mp3"
+    }
+}
+
+"saxton_hale.point_enabled"
+{
+    "channel"       "155"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/point_enabled_01_facility.mp3"
+    }
+}
+
+"saxton_hale.rage"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/rage_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rage_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rage_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rage_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rage_05_facility.mp3"
+    }
+}
+
+"saxton_hale.round_start"
+{
+    "channel"       "155"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/round_start_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/round_start_02_facility.mp3"
+    }
+}
+
+"saxton_hale.round_start_4boss"
+{
+    "channel"       "155"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/round_start_4saxton_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/round_start_4saxton_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/round_start_4saxton_03_facility.mp3"
+    }
+}
+
+"saxton_hale.round_start_long"
+{
+    "channel"       "155"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/round_start_long_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/round_start_long_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/round_start_long_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/round_start_long_04_facility.mp3"
+    }
+}
+
+
+"saxton_hale.round_start_beer"
+{
+    "channel"       "155"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/round_start_beer_01.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/round_start_beer_02.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/round_start_beer_03.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/round_start_beer_04.mp3"
+    }
+}
+
+"saxton_hale.rps_1"
+{
+    "channel"       "145"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_1_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_1_02_facility.mp3"
+    }
+}
+
+"saxton_hale.rps_2"
+{
+    "channel"       "145"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_2_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_2_02_facility.mp3"
+    }
+}
+
+"saxton_hale.rps_3"
+{
+    "channel"       "145"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_3_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_3_02_facility.mp3"
+    }
+}
+
+"saxton_hale.rps_on3"
+{
+    "channel"       "145"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_on3_01_facility.mp3"
+    }
+}
+
+"saxton_hale.rps_init"
+{
+    "channel"       "145"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_init_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_init_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_init_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_init_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_init_05_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_init_06_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_init_07_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_init_08_facility.mp3"
+    }
+}
+
+"saxton_hale.rps_lose"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_lose_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_lose_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_lose_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_lose_04_facility.mp3"
+    }
+}
+
+"saxton_hale.rps_lose_paper"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_lose_paper_01_facility.mp3"
+    }
+}
+
+"saxton_hale.rps_win_paper"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_win_paper_01_facility.mp3"
+    }
+}
+
+"saxton_hale.rps_lose_rock"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_lose_rock_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_lose_rock_02_facility.mp3"
+    }
+}
+
+"saxton_hale.rps_lose_scissors"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_lose_scissors_01_facility.mp3"
+    }
+}
+
+"saxton_hale.rps_win_scissors"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_win_scissors_01_facility.mp3"
+    }
+}
+
+"saxton_hale.rps_win_rock"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/rps_win_rock_01_facility.mp3"
+    }
+}
+
+"saxton_hale.high5"
+{
+    "channel"       "145"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/high5_01_facility.mp3"
+    }
+}
+
+"saxton_hale.saxton_punch"
+{
+    "channel"       "155"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/saxton_punch_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/saxton_punch_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/saxton_punch_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/saxton_punch_04_facility.mp3"
+    }
+}
+
+"saxton_hale.saxton_punch_ready"
+{
+    "channel"       "155"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/saxton_punch_ready_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/saxton_punch_ready_02_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/saxton_punch_ready_03_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/saxton_punch_ready_04_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/saxton_punch_ready_05_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/saxton_punch_ready_06_facility.mp3"
+    }
+}
+
+"saxton_hale.count1"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/count1_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/count1_02_facility.mp3"
+    }
+}
+
+"saxton_hale.count2"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/count2_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/count2_02_facility.mp3"
+    }
+}
+
+"saxton_hale.count3"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/count3_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/count3_02_facility.mp3"
+    }
+}
+
+"saxton_hale.count4"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/count4_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/count4_02_facility.mp3"
+    }
+}
+
+"saxton_hale.count5"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/count5_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/count5_02_facility.mp3"
+    }
+}
+
+"scout.above"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/scout_above_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_above_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_above_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_above_04.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_above_05.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_above_06.mp3"
+    }
+}
+
+"scout.behind"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/scout_behind_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_behind_02.mp3"
+    }
+}
+
+"scout.contact"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/scout_contact_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_contact_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_contact_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_contact_04.mp3"
+    }
+}
+
+
+"scout.marked"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/scout_marked_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_marked_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_marked_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_marked_04.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_marked_05.mp3"
+    }
+}
+
+"scout.medic_dead"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/scout_medicdead_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_nomedic_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_nomedic_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_nomedic_04.mp3"
+    }
+}
+
+"scout.no_medic"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/scout_nomedic_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_nomedic_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_nomedic_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_nomedic_04.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_nomedic_05.mp3"
+    }
+}
+
+"scout.setup"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/scout_setup_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_setup_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_setup_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/scout_setup_04.mp3"
+    }
+}
+
+"scout.wall_climb"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/scout_wall_climb_02.mp3"
+    }
+}
+
+"soldier.above"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/soldier_above_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_above_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_above_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_above_04.mp3"
+    }
+}
+
+"soldier.behind"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/soldier_behind_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_behind_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_behind_03.mp3"
+    }
+}
+
+"soldier.contact"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/soldier_contact_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_contact_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_contact_03.mp3"
+    }
+}
+
+"soldier.medic_dead"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/soldier_nomedic_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_nomedic_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_nomedic_04.mp3"
+    }
+}
+
+"soldier.no_medic"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/soldier_nomedic_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_nomedic_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_nomedic_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_nomedic_04.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_nomedic_05.mp3"
+    }
+}
+
+"soldier.no_medic_rare"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/soldier_nomedic_rare_01.mp3"
+    }
+}
+
+"soldier.setup"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/soldier_setup_01.mp3"
+    }
+}
+
+"soldier.setup_special"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/soldier_setup_garden_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_setup_garden_02.mp3"
+    }
+}
+
+"soldier.win"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/soldier_win_01.mp3"
+    }
+}
+
+"soldier.gardened"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/soldier_garden_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_garden_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_garden_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_garden_04.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_garden_05.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_garden_06.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_garden_07.mp3"
+    }
+}
+
+"soldier.wall_climb"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/soldier_wall_climb_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_wall_climb_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_wall_climb_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/soldier_wall_climb_04.mp3"
+    }
+}
+
+"pyro.above"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/pyro_above_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/pyro_above_02.mp3"
+    }
+}
+
+"pyro.behind"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/pyro_behind_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/pyro_behind_02.mp3"
+    }
+}
+
+"pyro.airblast"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/pyro_airblast_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/pyro_airblast_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/pyro_airblast_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/pyro_airblast_04.mp3"
+    }
+}
+
+"pyro.wall_climb"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/taunts/pyro/pyro_taunt_flip_fun_01.mp3"
+        "wave"      "vo/taunts/pyro/pyro_taunt_flip_admire_03.mp3"
+        "wave"      "vo/taunts/pyro/pyro_taunt_rps_int_02.mp3"
+        "wave"      "vo/taunts/pyro/pyro_trade_03.mp3"
+    }
+}
+
+"pyro.setup"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/pyro_setup_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/pyro_setup_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/pyro_setup_03.mp3"
+        "wave"      "vo/taunts/pyro_taunts01.mp3"
+        "wave"      "vo/taunts/pyro_taunts02.mp3"
+        "wave"      "vo/taunts/pyro_taunts03.mp3"
+        "wave"      "vo/taunts/pyro_taunts04.mp3"
+    }
+}
+
+"pyro.medic_dead"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/pyro_nomedic_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/pyro_nomedic_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/pyro_nomedic_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/pyro_nomedic_04.mp3"
+    }
+}
+
+"pyro.no_medic"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/pyro_nomedic_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/pyro_nomedic_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/pyro_nomedic_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/pyro_nomedic_04.mp3"
+    }
+}
+
+
+"pyro.win"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/pyro_win_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/pyro_win_02.mp3"
+    }
+}
+
+"demo.behind"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/demo_behind_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_behind_02.mp3"
+    }
+}
+
+"demo.above"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/demo_above_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_above_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_above_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_above_04.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_above_05.mp3"
+    }
+}
+
+"demo.contact"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/demo_contact_01.mp3"
+    }
+}
+
+"demo.trap_cheer"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/taunts/demo/taunt_demo_flip_fun_01.mp3"
+        "wave"      "vo/demoman_laughhappy01.mp3"
+        "wave"      "vo/demoman_laughhappy02.mp3"
+        "wave"      "vo/taunts/demo/taunt_demo_conga_fun_10.mp3"
+        "wave"      "vo/taunts/demoman_taunts17.mp3"
+        "wave"      "vo/demoman_laughlong01.mp3"
+        "wave"      "vo/demoman_laughshort06.mp3"
+        "wave"      "vo/demoman_snore2.mp3"
+    }
+}
+
+"demo.medic_dead"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/demo_medicdead_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_medicdead_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_medicdead_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_nomedic_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_nomedic_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_nomedic_04.mp3"
+    }
+}
+
+"demo.no_medic"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/demo_nomedic_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_nomedic_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_nomedic_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_nomedic_04.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_nomedic_05.mp3"
+    }
+}
+
+"demo.shield"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/demo_shield_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_shield_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_shield_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_shield_04.mp3"
+    }
+}
+
+"demo.shield_lowhp"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/demo_shield_lowhp_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_shield_lowhp_02.mp3"
+    }
+}
+
+"demo.sticky_trap"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/demo_sticky_trap_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_sticky_trap_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_sticky_trap_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_sticky_trap_04.mp3"
+    }
+}
+
+"demo.wall_climb"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/demo_wall_climb_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_wall_climb_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_wall_climb_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/demo_wall_climb_04.mp3"
+    }
+}
+
+"demo.special_01"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/demo_special_01.mp3"
+    }
+}
+
+"heavy.above"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/heavy_above_01.mp3"
+    }
+}
+
+"heavy.behind"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/heavy_behind_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_behind_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_behind_03.mp3"
+    }
+}
+
+"heavy.contact"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/heavy_contact_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_contact_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_contact_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_contact_04.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_contact_05.mp3"
+    }
+}
+
+"heavy.medic_dead"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    
+        "wave"      "vo/heavy_mvm_class_is_dead08.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_medicdead_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_medicdead_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_medicdead_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_medicdead_04.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_medicdead_05.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_nomedic_04.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_nomedic_04.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_nomedic_05.mp3"
+    }
+}
+
+"heavy.no_medic"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/heavy_nomedic_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_nomedic_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_nomedic_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_nomedic_04.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_nomedic_04.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_nomedic_05.mp3"
+    }
+}
+
+"heavy.low_ammo"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/heavy_lowammo_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_lowammo_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_lowammo_03.mp3"
+    }
+}
+
+"heavy.setup"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/heavy_setup_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_setup_02.mp3"
+    }
+}
+
+"heavy.win"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/heavy_win_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_win_02.mp3"
+    }
+}
+
+"heavy.tickle"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/heavy_tickle_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_tickle_02.mp3"
+    }
+}
+
+"heavy.wall_climb"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/heavy_wall_climb_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_wall_climb_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_wall_climb_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_wall_climb_04.mp3"
+        "wave"      "vo/mercs_sm_2025_1/heavy_wall_climb_06.mp3"
+    }
+}
+
+"engineer.above"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/engineer_above_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/engineer_above_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/engineer_above_03.mp3"
+    }
+}
+
+"engineer.behind"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/engineer_behind_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/engineer_behind_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/engineer_behind_03.mp3"
+    }
+}
+
+"engineer.contact"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/engineer_contact_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/engineer_contact_02.mp3"
+    }
+}
+
+"engineer.medic_dead"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/engineer_medicdead_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/engineer_medicdead_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/engineer_medicdead_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/engineer_nomedic_01.mp3"
+        "wave"      "vo/engineer_mvm_class_is_dead05.mp3"
+    }
+}
+
+"engineer.no_medic"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/engineer_nomedic_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/engineer_nomedic_02.mp3"
+    }
+}
+
+"engineer.setup"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/engineer_setup_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/engineer_setup_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/engineer_setup_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/engineer_setup_04.mp3"
+        "wave"      "vo/mercs_sm_2025_1/engineer_setup_05.mp3"
+        "wave"      "vo/mercs_sm_2025_1/engineer_setup_06.mp3"
+        "wave"      "vo/mercs_sm_2025_1/engineer_setup_07.mp3"
+    }
+}
+
+"engineer.wall_climb"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/engineer_wall_climb_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/engineer_wall_climb_02.mp3"
+    }
+}
+
+"medic.above"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/medic_above_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/medic_above_02.mp3"
+    }
+}
+
+"medic.behind"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/medic_behind_01.mp3"
+    }
+}
+
+"medic.contact"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/medic_contact_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/medic_contact_02.mp3"
+    }
+}
+
+"medic.contact_uber"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/medic_contact_uber_01.mp3"
+    }
+}
+
+"medic.setup"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/medic_setup_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/medic_setup_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/medic_setup_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/medic_setup_04.mp3"
+    }
+}
+
+"medic.wall_climb"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/medic_wall_climb_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/medic_wall_climb_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/medic_wall_climb_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/medic_wall_climb_04.mp3"
+        "wave"      "vo/mercs_sm_2025_1/medic_wall_climb_05.mp3"
+    }
+}
+
+"sniper.contact"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/sniper_contact_01.mp3"
+    }
+}
+
+"sniper.medic_dead"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/sniper_medicdead_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/sniper_medicdead_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/sniper_medicdead_03.mp3"
+    }
+}
+
+"sniper.no_medic"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/sniper_nomedic_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/sniper_nomedic_02.mp3"
+    }
+}
+
+"sniper.run"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/sniper_run_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/sniper_run_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/sniper_run_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/sniper_run_04.mp3"
+    }
+}
+
+"sniper.setup"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/sniper_setup_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/sniper_setup_02.mp3"
+    }
+}
+
+"sniper.wall_climb"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/sniper_wall_climb_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/sniper_wall_climb_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/sniper_wall_climb_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/sniper_wall_climb_04.mp3"
+    }
+}
+
+"sniper.win"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/sniper_win_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/sniper_win_02.mp3"
+    }
+}
+
+"spy.left_last"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/spy_left_last_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/spy_left_last_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/spy_left_last_03.mp3"
+    }
+}
+
+"spy.noinvis"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/spy_noinvis_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/spy_noinvis_02.mp3"
+		"wave"      "vo/mercs_sm_2025_1/spy_noinvis_03.mp3"
+    }
+}
+
+"spy.medic_dead"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/spy_medicdead_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/spy_nomedic_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/spy_nomedic_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/spy_nomedic_04.mp3"
+    }
+}
+
+"spy.no_medic"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/spy_nomedic_01.mp3"
+        "wave"      "vo/mercs_sm_2025_1/spy_nomedic_02.mp3"
+        "wave"      "vo/mercs_sm_2025_1/spy_nomedic_03.mp3"
+        "wave"      "vo/mercs_sm_2025_1/spy_nomedic_04.mp3"
+    }
+}
+
+"spy.special_01"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+        "wave"      "vo/mercs_sm_2025_1/spy_special_01.mp3"
+    }
+}
+
+//VSH SFX =======================================
+
+"vsh_sfx.silent_tie"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "1.0"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "wave"          "common/null.wav"
+}
+
+"vsh_sfx.shield_break"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"1"
+	"pitch"			"PITCH_NORM"
+	"soundlevel"	"SNDLVL_125dB"
+	
+	"wave"			")player/taunt_yeti_standee_break.wav"
+}
+"vsh_sfx.slam_ready"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "1.0"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "wave"          "ui/item_medal_pickup.wav"
+}
+
+
+"vsh_sfx.gardened"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "1.0"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "wave"          "passtime/crowd_react_pos.wav"
+}
+
+"vsh_sfx.hale_charge"
+{
+    "channel"       "CHAN_WEAPON"
+    "volume"        "1.0"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "wave"          "weapons/loose_cannon_charge.wav"
+}
+
+"vsh_sfx.hale_dash"
+{
+    "channel"       "CHAN_WEAPON"
+    "volume"        "1.0"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "wave"          "common/null.wav"
+}
+
+"vsh_sfx.boss_slam_impact"
+{
+    "channel"       "CHAN_STATIC"
+    "volume"        "1.0"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "wave"          "ambient/explosions/explode_1.wav"
+}
+
+
+"vsh_sfx.saxton_punch"
+{
+    "channel"       "CHAN_WEAPON"
+    "volume"        "1.0"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "wave"          "mvm/giant_soldier/giant_soldier_rocket_shoot_crit.wav"
+}
+
+"vsh_sfx.demo_charge"
+{
+	"channel"	    "CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	    "1.0"
+
+    "rndwave"
+    {
+        "wave"      "weapons/demo_charge_windup1.wav"
+        "wave"      "weapons/demo_charge_windup2.wav"
+        "wave"      "weapons/demo_charge_windup3.wav"
+    }
+}
+
+// "Heavy is Spy" when aiming at Hale =================================================
+
+"Scout.CloakedSpyIdentify03"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "0.820"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_95dB"
+    
+    "rndwave"
+    {
+        "wave"      "vo/scout_CloakedSpy01.mp3"
+        "wave"      "vo/scout_CloakedSpy02.mp3"
+        "wave"      "vo/scout_CloakedSpy03.mp3"
+        "wave"      "vo/scout_CloakedSpy04.mp3"
+    }
+}
+
+"Soldier.CloakedSpyIdentify03"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "0.820"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_95dB"
+    
+    "rndwave"
+    {
+        "wave"      "vo/soldier_CloakedSpy01.mp3"
+        "wave"      "vo/soldier_CloakedSpy02.mp3"
+        "wave"      "vo/soldier_CloakedSpy03.mp3"
+    }
+}
+
+"Demoman.CloakedSpyIdentify03"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "0.820"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_95dB"
+    
+    "rndwave"
+    {
+        "wave"      "vo/demoman_CloakedSpy01.mp3"
+        "wave"      "vo/demoman_CloakedSpy02.mp3"
+        "wave"      "vo/demoman_CloakedSpy03.mp3"
+    }
+}
+
+"Heavy.CloakedSpyIdentify03"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "0.820"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_95dB"
+    
+    "rndwave"
+    {
+        "wave"      "vo/heavy_CloakedSpy01.mp3"
+        "wave"      "vo/heavy_CloakedSpy02.mp3"
+        "wave"      "vo/heavy_CloakedSpy03.mp3"
+        "wave"      "vo/heavy_CloakedSpy04.mp3"
+    }
+}
+
+"Engineer.CloakedSpyIdentify03"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "0.820"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_95dB"
+    
+    "rndwave"
+    {
+        "wave"      "vo/engineer_CloakedSpy01.mp3"
+        "wave"      "vo/engineer_CloakedSpy02.mp3"
+        "wave"      "vo/engineer_CloakedSpy03.mp3"
+    }
+}
+
+"Medic.CloakedSpyIdentify03"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "0.820"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_95dB"
+    
+    "rndwave"
+    {
+        "wave"      "vo/medic_CloakedSpy01.mp3"
+        "wave"      "vo/medic_CloakedSpy02.mp3"
+    }
+}
+
+"Sniper.CloakedSpyIdentify03"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "0.820"
+    "pitch"         "PITCH_NORM"
+    
+    "soundlevel"    "SNDLVL_95dB"
+    "rndwave"
+    {
+        "wave"      "vo/sniper_CloakedSpy01.mp3"
+        "wave"      "vo/sniper_CloakedSpy02.mp3"
+        "wave"      "vo/sniper_CloakedSpy03.mp3"
+    }
+}
+
+"Spy.CloakedSpyIdentify03"
+{
+    "channel"       "CHAN_VOICE"
+    "volume"        "0.820"
+    "pitch"         "PITCH_NORM"
+    
+    "soundlevel"    "SNDLVL_95dB"
+    "rndwave"
+    {
+        "wave"      "vo/spy_CloakedSpy01.mp3"
+        "wave"      "vo/spy_CloakedSpy02.mp3"
+        "wave"      "vo/spy_CloakedSpy03.mp3"
+        "wave"      "vo/spy_CloakedSpy04.mp3"
+    }
+}
+
+// Making the Administrator Silent =================================================
+
+"DemoCharge.Charging"
+{
+    "channel"       "CHAN_STATIC"
+    "volume"        "1"
+    "soundlevel"    "SNDLVL_140dB"
+    "pitch"         "PITCH_NORM"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Taunt.MedicHardClap1"
+{
+	"channel"       "CHAN_STATIC"
+	"volume"        ".05"
+	"soundlevel"    "SNDLVL_75dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Taunt.MedicHardClap2"
+{
+	"channel"       "CHAN_STATIC"
+	"volume"        ".05"
+	"soundlevel"    "SNDLVL_75dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Taunt.MedicHardClap3"
+{
+	"channel"       "CHAN_STATIC"
+	"volume"        ".05"
+	"soundlevel"    "SNDLVL_75dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Taunt.MedicHardClap4"
+{
+	"channel"       "CHAN_STATIC"
+	"volume"        ".05"
+	"soundlevel"    "SNDLVL_75dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Taunt.MedicHardClap5"
+{
+	"channel"       "CHAN_STATIC"
+	"volume"        ".05"
+	"soundlevel"    "SNDLVL_75dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Taunt.MedicHardClap6"
+{
+	"channel"       "CHAN_STATIC"
+	"volume"        ".05"
+	"soundlevel"    "SNDLVL_75dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Game.YourTeamLost"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "1"
+    "soundlevel"    "SNDLVL_140dB"
+    "pitch"         "PITCH_NORM"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Game.YourTeamWon"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "1"
+    "soundlevel"    "SNDLVL_140dB"
+    "pitch"         "PITCH_NORM"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Game.Stalemate"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "1"
+    "soundlevel"    "SNDLVL_140dB"
+    "pitch"         "PITCH_NORM"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Game.Overtime"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "1"
+    "soundlevel"    "SNDLVL_140dB"
+    "pitch"         "PITCH_NORM"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.AM_CapEnabledRandom"
+{
+    "channel"       "155"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_NORM"
+
+    "rndwave"           
+    {
+        "wave"      "mvm/saxton_hale_sm_2025_1/point_enabled_01_facility.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/point_enabled_02.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/point_enabled_03.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/point_enabled_04.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/point_enabled_05.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/point_enabled_06.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/point_enabled_07.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/point_enabled_08.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/point_enabled_09.mp3"
+        "wave"      "mvm/saxton_hale_sm_2025_1/point_enabled_10.mp3"
+    }
+}
+
+"Announcer.RoundBegins1Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundBegins2Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundBegins3Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundBegins4Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundBegins5Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundBegins10Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundEnds10seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundEnds30seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundEnds60seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundEnds5seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundEnds4seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundEnds3seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundEnds2seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.RoundEnds1seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.AM_CapEnabled01"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.AM_CapEnabled02"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.AM_CapEnabled03"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.AM_CapEnabled04"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+    
+    "rndwave"
+    {
+    }
+}
+
+
+"Announcer.Success"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_NORM"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.Failure"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_NORM"
+        
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.ControlPointContested"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_NORM"
+
+    "rndwave"
+    {
+    }
+}
+
+"ControlPoint.CaptureWarn"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_NORM"
+    
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.ControlPointContested_Neutral"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_NORM"
+
+    "rndwave"
+    {
+    }
+}
+
+"Announcer.CompGame1Begins60Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGame1Begins30Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGame1Begins10Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBegins05Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBegins04Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBegins03Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBegins02Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBegins01Seconds"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompGameBeginsFight"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}
+"Announcer.CompFinalGameBeginsFight"
+{
+    "channel"       "CHAN_AUTO"
+    "volume"        "VOL_NORM"
+    "pitch"         "PITCH_NORM"
+    "soundlevel"    "SNDLVL_150dB"
+
+    "rndwave"
+    {
+    }
+}

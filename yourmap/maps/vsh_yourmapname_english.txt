@@ -1,0 +1,22 @@
+Objective:
+As Mercenaries, defeat Mecha Hale.
+As Mecha Hale, get rid of those pesky Mercenaries.
+
+Other Notes:
+Mercenaries can climb up walls by hitting them with their melee weapons.
+as Mecha Hale, use E to fire off lasers.
+
+Credits:
+
+Phe - Game design, level design, detailing, assets, promo material.
+Lizard Of Oz - Programming, game design, assets, promo material.
+Hellhounds04 - level design, detailing, assets, promo material.
+Maxxy - Character model, textures, animations.
+Velly - VFX, animations scripting, technical assistance.
+MegapiemanPHD - Mecha Hale and Gray Mann voice acting.
+McGuinnsBook - Mercenaries voice acting for custom lines.
+Yaki - custom weapon script assistance.
+Sono - 3D skybox displacements.
+Zoey - frontline crates.
+Shork - gameplay trailer and other promo material.
+Senni - Revised and Updated Scripts for Spy's Sapper, Saxton Punch lines, Mecha Hale's gibs, and engine loop sfx.
