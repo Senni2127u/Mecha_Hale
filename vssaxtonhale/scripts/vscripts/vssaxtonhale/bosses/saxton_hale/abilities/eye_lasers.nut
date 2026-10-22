@@ -161,40 +161,57 @@ class EyeLasersTrait extends BossTrait
             params.damage *= 0.5;
     }
 
-    function OnDamageDealt(victim, params)
+  function OnDamageDealt(victim, params)
+{
+    if (params.inflictor == custom_dmg_eye_lasers || params.inflictor == custom_dmg_eye_lasers_collateral)
     {
-        if (params.inflictor == custom_dmg_eye_lasers || params.inflictor == custom_dmg_eye_lasers_collateral)
-        {
-            if ("customkill" in params)
-                params.customkill = TF_DMG_CUSTOM_PLASMA;
-            else
-                params.customkill <- TF_DMG_CUSTOM_PLASMA;
-        }
+        if ("customkill" in params)
+            params.customkill = TF_DMG_CUSTOM_PLASMA;
+        else
+            params.customkill <- TF_DMG_CUSTOM_PLASMA;
     }
-
-    function OnKill(victim, params)
+    else if (victim in recentlyLasered)
     {
-        if (!victim.IsPlayer())
-            return;
+        // Any non-laser hit means the laser is no longer the last thing that hurt them.
+        delete recentlyLasered[victim];
+    }
+}
 
+function OnKill(victim, params)
+{
+    if (!victim.IsPlayer())
+        return;
+
+    local inflictor = ("inflictor" in params) ? params.inflictor : null;
+    local isLaser = false;
+
+    if (inflictor != null)
+    {
+        // The kill params say what did it, so use that
+        isLaser = (inflictor == custom_dmg_eye_lasers || inflictor == custom_dmg_eye_lasers_collateral);
+    }
+    else
+    {
+        // No inflictor info, so fall back to customkill / recent-laser tracking
         local taggedByParams = ("customkill" in params) && params.customkill == TF_DMG_CUSTOM_PLASMA;
         local taggedByTracking = (victim in recentlyLasered) && (Time() - recentlyLasered[victim] < 2.5);
-
-        if (!taggedByParams && !taggedByTracking)
-            return;
-
-        if (victim in recentlyLasered)
-            delete recentlyLasered[victim];
-
-        if (Time() - lastKillVOTime < 15)
-            return;
-        lastKillVOTime = Time();
-        PlayVO("saxton_hale.laser_kill", function()
-        {
-            PlayAnnouncerVO(boss, "laser_kill");
-        });
+        isLaser = taggedByParams || taggedByTracking;
     }
 
+    if (victim in recentlyLasered)
+        delete recentlyLasered[victim];
+
+    if (!isLaser)
+        return;
+
+    if (Time() - lastKillVOTime < 15)
+        return;
+    lastKillVOTime = Time();
+    PlayVO("saxton_hale.laser_kill", function()
+    {
+        PlayAnnouncerVO(boss, "laser_kill");
+    });
+}
     function OnTickAlive(timeDelta)
     {
         ProcessSoundQueue();
