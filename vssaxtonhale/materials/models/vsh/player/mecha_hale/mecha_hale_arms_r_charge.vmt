@@ -1,0 +1,58 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/vsh/player/mecha_hale/mecha_hale_arms"
+
+	"$phong" "1"
+	//"$phongexponent" "15"
+	"$phongboost" "2"	
+	"$phongfresnelranges"	"[.6 .9 1]"
+	"$halflambert" "0"
+	"$phongexponenttexture" "models/vsh/player/mecha_hale/mecha_hale_arms_exp"
+
+	"$lightwarptexture" "models/lightwarps/robot_lightwarp"
+
+	"$basemapalphaphongmask" "1"
+	
+	"$rimlight" "1"						
+	"$rimlightexponent" "1"				
+	"$rimlightboost" "2"
+	"$rimmask" "1"
+
+	"$detail" 			"models/vsh/player/mecha_hale/mecha_hale_arms_r_charge"	
+	"$detailscale" 		"1"
+	"$detailblendfactor" 	"1"
+	"$detailblendmode" 	"6"
+
+	"$yellow" "0"
+	"$one" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		//"AnimatedTexture"
+		//{
+		//	"animatedtexturevar" "$detail"
+		//	"animatedtextureframenumvar" "$detailframe"
+		//	"animatedtextureframerate" 30
+		//}
+		//"BurnLevel"
+		//{
+		//	"resultVar" "$detailblendfactor"
+		//}
+		//"YellowLevel"
+		//{
+		//	"resultVar" "$yellow"
+		//}
+		//"Equals"
+		//{
+		//	"srcVar1"  "$yellow"
+		//	"resultVar" "$color2"
+		//}
+
+	}
+}

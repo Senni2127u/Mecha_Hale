@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/vsh/player/mecha_hale/mecha_hale_exhaust_void"
+
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"spy_invis" //wmodel and team color cloak support
+		{
+		}
+		"invis" //vmodel cloak support
+		{
+		}
+	}
+}

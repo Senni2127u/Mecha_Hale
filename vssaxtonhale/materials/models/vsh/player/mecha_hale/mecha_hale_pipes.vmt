@@ -1,0 +1,23 @@
+patch
+{
+	include 	"materials/models/vsh/player/mecha_hale/mecha_hale_pipes_shared.vmt"
+	
+	insert
+	{
+		"Proxies"
+		{
+			"spy_invis"
+			{
+			}
+			"invis" //vmodel cloak support
+			{
+			}
+			"TextureScroll"
+			{
+				"texturescrollvar" 	"$detailtexturetransform"
+				"texturescrollrate" 	"-.15"
+				"texturescrollangle" 	"0.00"
+			}
+		}
+	}
+}

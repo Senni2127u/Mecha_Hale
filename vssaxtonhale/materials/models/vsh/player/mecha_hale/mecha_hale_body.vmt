@@ -1,0 +1,25 @@
+patch
+{
+	include 	"materials/models/vsh/player/mecha_hale/mecha_hale_shared.vmt"
+	
+	insert
+	{
+		"$basetexture" 		"models/vsh/player/mecha_hale/mecha_hale_body"
+
+		"$phong" 		"1"
+		//"$phongexponent" 	"15"
+		"$phongboost" 		"1"	
+		"$phongfresnelranges"	"[.6 .9 1]"
+		"$halflambert" 		"0"
+		"$phongexponenttexture" 	"models/vsh/player/mecha_hale/mecha_hale_body_exp"
+
+		"$lightwarptexture" 		"models/lightwarps/robot_lightwarp"
+
+		"$basemapalphaphongmask" 	"1"
+
+		"$detail" 			"models/vsh/player/mecha_hale/mecha_hale_body_emissive"	
+		"$detailscale" 		"1"
+		"$detailblendfactor" 	"1"
+		"$detailblendmode" 	"6"
+	}
+}

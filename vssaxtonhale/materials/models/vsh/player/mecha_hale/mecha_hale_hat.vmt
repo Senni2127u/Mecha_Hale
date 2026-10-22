@@ -1,0 +1,20 @@
+patch
+{
+	include 	"materials/models/vsh/player/mecha_hale/mecha_hale_shared.vmt"
+	
+	insert
+	{
+		"$basetexture" 		"models/vsh/player/mecha_hale/mecha_hale_hat"
+	
+		"$phong" 		"1"
+		//"$phongexponent" 	"4"
+		"$phongboost" 		"2"	
+		"$phongfresnelranges"	"[.6 .9 1]"
+		"$halflambert" 		"0"
+		"$phongexponenttexture" 	"models/vsh/player/mecha_hale/mecha_hale_hat_exp"
+
+		"$lightwarptexture" 		"models/lightwarps/robot_lightwarp"
+
+		"$basemapalphaphongmask" 	"1"
+	}
+}
