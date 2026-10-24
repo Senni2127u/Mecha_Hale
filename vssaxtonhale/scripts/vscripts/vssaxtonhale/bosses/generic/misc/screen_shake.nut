@@ -67,7 +67,7 @@ class ScreenShakeTrait extends BossTrait
         {
             if (victim.IsPlayer())
             {
-                if (victim.InCond(TF_COND_INVULNERABLE))
+                if (victim.InCond(TF_COND_INVULNERABLE || TF_COND_PHASED))
                     {
                         return;
                     }
