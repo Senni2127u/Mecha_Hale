@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "vgui/vssaxtonhale/sapper_ready"
+	"$basetexture" "vgui/vssaxtonhale/sapper_not_ready"
 	"$translucent" 1
 	"$vertexcolor" 1
 	"$ignorez" 1
