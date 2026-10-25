@@ -21,6 +21,32 @@ characterTraitsClasses.push(class extends CharacterTrait
     sapperEnt = null;
     inAttack = 0;
 
+    //Same small-number table the boss ability HUD uses (ability_hud.nut).
+    big2small = {
+        " ": " ",
+        "r": "✔",
+        "1": "₁", "2": "₂", "3": "₃", "4": "₄", "5": "₅",
+        "6": "₆", "7": "₇", "8": "₈", "9": "₉", "0": "₀",
+    };
+
+    function BigToSmallNumbers(input)
+    {
+        local result = "";
+        foreach (char in input)
+            result += big2small[char.tochar()];
+        return result;
+    }
+
+    function SapperMeterAsNumber() //Seconds left until the Sapper is ready, "r" (a checkmark) when ready. Same logic as Hale's MeterAsNumber.
+    {
+        local mapped = (100.0 - sapperCharge) * SAPPER_CHARGE_TIME / 100.0 + 0.99;
+        if (mapped <= 1)
+            return "r";
+        if (mapped < 10)
+            return format(" %d", mapped.tointeger());
+        return format("%d", mapped.tointeger());
+    }
+
     function CanApply()
     {
         return player.GetPlayerClass() == TF_CLASS_SPY; //We only want Spy, this replaces the previous spy_sappercall.nut script from the old version of the mode.
@@ -33,12 +59,12 @@ characterTraitsClasses.push(class extends CharacterTrait
         inAttack = 0;
 
 
-        sapper_text = SpawnEntityFromTable("game_text", { //Change this for text colors and whatnot, Mercs are RED in the default, so it's red.
+        sapper_text = SpawnEntityFromTable("game_text", { //Same style as Hale's ability text (white, bar under the icon).
             channel  = 1
-            x        = "0.781"
+            x        = "0.775"
             y        = "0.788"
-            color    = "255 80 80"
-            color2   = "255 80 80"
+            color    = "255 255 255"
+            color2   = "0 0 0"
             effect   = 0
             fadein   = 0
             fadeout  = 0
@@ -49,6 +75,8 @@ characterTraitsClasses.push(class extends CharacterTrait
     function OnDiscard()
     {
         sapper_text = KillIfValid(sapper_text); //Removing old text from previous rounds.
+        if (player != null && player.IsValid())
+            player.SetScriptOverlayMaterial(""); //Clear the Sapper HUD icon.
     }
 
     function OnTickAlive(timeDelta)
@@ -56,13 +84,24 @@ characterTraitsClasses.push(class extends CharacterTrait
         if (GetPropInt(player, "m_nButtons") & IN_ATTACK)
             inAttack = Time();
 
+        sapperCharge = clampCeiling(100.0, sapperCharge + timeDelta * (100.0 / SAPPER_CHARGE_TIME));
+
+        //Sapper HUD icon: achievement-colored when ready, grayed out while recharging.
+        player.SetScriptOverlayMaterial(sapperCharge >= 100.0
+            ? "vgui/vssaxtonhale/sapper_ready"
+            : "vgui/vssaxtonhale/sapper_not_ready");
+
         if (sapper_text != null && sapper_text.IsValid())
         {
-            SetPropString(sapper_text, "m_iszMessage", format("Sapper: %d%%", sapperCharge.tointeger())); //Actual text for Sapper percentage.
-            EntFireByHandle(sapper_text, "Display", "", -1, player, player);
+            local bar = BigToSmallNumbers(SapperMeterAsNumber()) + " "; //Same bar format as Sweeping Charge / Mighty Slam.
+            local i = 13;
+            for (; i < sapperCharge; i += 13)
+                bar += "▰";
+            for (; i <= 100; i += 13)
+                bar += "▱";
+            SetPropString(sapper_text, "m_iszMessage", bar);
+            sapper_text.AcceptInput("Display", "", player, player);
         }
-
-        sapperCharge = clampCeiling(100.0, sapperCharge + timeDelta * (100.0 / SAPPER_CHARGE_TIME));
 
         if (sapperCharge >= 100.0 && sapperEnt != null)
         {
