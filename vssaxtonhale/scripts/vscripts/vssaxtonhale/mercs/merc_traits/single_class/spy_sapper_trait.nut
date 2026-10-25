@@ -60,20 +60,35 @@ characterTraitsClasses.push(class extends CharacterTrait
 
 
         sapper_text = SpawnEntityFromTable("game_text", { //Same style as Hale's ability text (white, bar under the icon).
-            channel  = 1
-            x        = "0.775"
-            y        = "0.788"
+            channel  = 3 //Channel 1 is used by the damage counter in hud.nut, sharing it would overwrite this text.
+            x        = "0.757"
+            y        = "0.937"
             color    = "255 255 255"
             color2   = "0 0 0"
             effect   = 0
             fadein   = 0
             fadeout  = 0
-            holdtime = 0.2
+            holdtime = 250
         });
+    }
+
+    function ClearSapperText()
+    {
+        if (sapper_text != null && sapper_text.IsValid() && player != null && player.IsValid())
+        {
+            SetPropString(sapper_text, "m_iszMessage", "");
+            sapper_text.AcceptInput("Display", "", player, player);
+        }
+    }
+
+    function OnDeath(attacker, params)
+    {
+        ClearSapperText();
     }
 
     function OnDiscard()
     {
+        ClearSapperText();
         sapper_text = KillIfValid(sapper_text); //Removing old text from previous rounds.
         if (player != null && player.IsValid())
             player.SetScriptOverlayMaterial(""); //Clear the Sapper HUD icon.
@@ -87,18 +102,15 @@ characterTraitsClasses.push(class extends CharacterTrait
         sapperCharge = clampCeiling(100.0, sapperCharge + timeDelta * (100.0 / SAPPER_CHARGE_TIME));
 
         //Sapper HUD icon: achievement-colored when ready, grayed out while recharging.
-        player.SetScriptOverlayMaterial(sapperCharge >= 100.0
-            ? "vgui/vssaxtonhale/sapper_ready"
-            : "vgui/vssaxtonhale/sapper_not_ready");
+        player.SetScriptOverlayMaterial(API_GetString("ability_hud_folder") + "/" //Same path format Hale's ability HUD uses.
+            + (sapperCharge >= 100.0 ? "sapper_ready" : "sapper_not_ready"));
 
         if (sapper_text != null && sapper_text.IsValid())
         {
             local bar = BigToSmallNumbers(SapperMeterAsNumber()) + " "; //Same bar format as Sweeping Charge / Mighty Slam.
-            local i = 13;
-            for (; i < sapperCharge; i += 13)
-                bar += "▰";
-            for (; i <= 100; i += 13)
-                bar += "▱";
+            local filled = sapperCharge >= 100.0 ? 5 : (sapperCharge / 20.0).tointeger(); //5 segments, shorter than Hale's 7 so it fits inside the plate.
+            for (local seg = 0; seg < 5; seg++)
+                bar += (seg < filled) ? "▰" : "▱";
             SetPropString(sapper_text, "m_iszMessage", bar);
             sapper_text.AcceptInput("Display", "", player, player);
         }
