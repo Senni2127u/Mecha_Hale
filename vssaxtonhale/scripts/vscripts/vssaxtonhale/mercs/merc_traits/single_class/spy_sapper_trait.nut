@@ -103,7 +103,7 @@ characterTraitsClasses.push(class extends CharacterTrait
 
         //Sapper HUD icon: achievement-colored when ready, grayed out while recharging.
         player.SetScriptOverlayMaterial(API_GetString("ability_hud_folder") + "/" //Same path format Hale's ability HUD uses.
-            + (sapperCharge >= 100.0 ? "sapper_not_ready"));
+            + (sapperCharge >= 100.0 ? "sapper_ready" : "sapper_not_ready"));
 
         if (sapper_text != null && sapper_text.IsValid())
         {
