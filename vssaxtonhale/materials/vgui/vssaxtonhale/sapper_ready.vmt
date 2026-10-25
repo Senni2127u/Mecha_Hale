@@ -1,5 +1,12 @@
-"LightmappedGeneric"
+"UnlitGeneric"
 {
-	"$basetexture" "vgui\vssaxtonhale\sapper_ready"
+	"$basetexture" "vgui/vssaxtonhale/sapper_ready"
 	"$translucent" 1
+	"$vertexcolor" 1
+	"$ignorez" 1
+	"$no_fullbright" 1
+	"$clamps" 1
+	"$clampt" 1
+	"$basetexturetransform" "center 0.8636 0.7247 scale 8.333 4.6875 rotate 0 translate 0 0"
+	"%keywords" "tf"
 }
