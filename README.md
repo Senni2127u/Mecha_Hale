@@ -12,4 +12,4 @@ Credits:
 * McGuinnsBook - Mercenaries voice acting for custom lines.
 * Yaki - custom weapon script assistance.
 * Bradasparky - General Coding Assistance.
-* Senni - Updated Scripts and fixes for new version of gamemode.
+* Senni - Updated Scripts, added fixes, and Sapper HUD element for new version of gamemode.
