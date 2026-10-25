@@ -62,7 +62,7 @@ characterTraitsClasses.push(class extends CharacterTrait
         sapper_text = SpawnEntityFromTable("game_text", { //Same style as Hale's ability text (white, bar under the icon).
             channel  = 3 //Channel 1 is used by the damage counter in hud.nut, sharing it would overwrite this text.
             x        = "0.757"
-            y        = "0.937"
+            y        = "0.970"
             color    = "255 255 255"
             color2   = "0 0 0"
             effect   = 0
@@ -103,7 +103,7 @@ characterTraitsClasses.push(class extends CharacterTrait
 
         //Sapper HUD icon: achievement-colored when ready, grayed out while recharging.
         player.SetScriptOverlayMaterial(API_GetString("ability_hud_folder") + "/" //Same path format Hale's ability HUD uses.
-            + (sapperCharge >= 100.0 ? "sapper_ready" : "sapper_not_ready"));
+            + (sapperCharge >= 100.0 ? "sapper_not_ready"));
 
         if (sapper_text != null && sapper_text.IsValid())
         {
