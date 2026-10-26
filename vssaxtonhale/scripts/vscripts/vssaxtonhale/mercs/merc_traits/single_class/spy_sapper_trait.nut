@@ -62,7 +62,7 @@ characterTraitsClasses.push(class extends CharacterTrait
         sapper_text = SpawnEntityFromTable("game_text", { //Same style as Hale's ability text (white, bar under the icon).
             channel  = 3 //Channel 1 is used by the damage counter in hud.nut, sharing it would overwrite this text.
             x        = "0.757"
-            y        = "0.970"
+            y        = "0.930"
             color    = "255 255 255"
             color2   = "0 0 0"
             effect   = 0
@@ -117,6 +117,7 @@ characterTraitsClasses.push(class extends CharacterTrait
 
         if (sapperCharge >= 100.0 && sapperEnt != null)
         {
+            EmitSoundOnClient("TFPlayer.ReCharged", player);
             for (local i = 0; i < 7; i++)
                 if (!GetPropEntityArray(player, "m_hMyWeapons", i))
                 {
